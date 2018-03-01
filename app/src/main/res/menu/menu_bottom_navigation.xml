@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_map"
+        android:icon="@android:drawable/ic_dialog_map"
+        app:showAsAction="ifRoom"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/action_dial"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        app:showAsAction="ifRoom"
+        android:title="Top10" />
+    <item
+        android:id="@+id/action_mail"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Mail" />
+</menu>
